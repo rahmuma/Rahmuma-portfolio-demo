@@ -190,3 +190,141 @@ button {
     margin-right: 7px;  
     width: 15px;  
 }
+
+/* pg-3 */
+.pg-3{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgba(240, 241, 243, 1);
+    height: 590px;
+}
+
+/* left text */
+.text-3{
+    margin-top: 150px;
+}
+
+.text-3 p{
+    color: #666;
+}
+/* right card */
+
+
+.right-c{
+    display: flex;
+    gap: 14px;
+    margin-top: 40px;
+    
+}
+
+.card-0{
+    background-color: #fdfdfd;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.card-p{
+    margin-top: 30px;
+}
+
+/* page-4 */
+
+/* top text */
+.top-text{
+    text-align: center;
+}
+
+/* main-box-top */
+.main-box1{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    height: 470px;
+}
+
+.box-1{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.box-1 h5{
+    color: #666;
+}
+
+.box-1 h4{
+    font-weight: bolder;
+}
+ .box-1 p{
+    color: #666;
+ }
+
+ .box-1 button{
+    border: 1px solid rgba(165,61,255,1);
+    background: transparent;
+    color:  rgba(165,61,255,1);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+ }
+
+ .icon-1{
+   width: 16px;
+   height: 16px;
+ }
+
+ .box-1-t{
+    margin-left: 30px;
+ }
+
+ /* main-bottom */
+ .main-box2{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    height: 470px;
+    margin-top: 20px;
+}
+
+.box-2{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.box-2 h5{
+    color: #666;
+}
+
+.box-2 h4{
+    font-weight: bolder;
+}
+ .box-2 p{
+    color: #666;
+ }
+
+ .box-2 button{
+    border: 1px solid rgba(165,61,255,1);
+    background: transparent;
+    color:  rgba(165,61,255,1);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+ }
+
+ .box-2-t{
+    margin-left: 30px;
+ }
+
+ .btn-4{
+    background-color: rgba(165,61,255,1);
+    justify-content: center;
+ }
