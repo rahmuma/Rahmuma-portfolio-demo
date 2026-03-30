@@ -198,6 +198,7 @@ button {
     gap: 70px;
     background-color: rgba(240, 241, 243, 1);
     height: 590px;
+    margin-top: 50px;
 }
 
 /* left text */
@@ -314,7 +315,6 @@ button {
     border: 1px solid rgba(165,61,255,1);
     background: transparent;
     color:  rgba(165,61,255,1);
-
     display: flex;
     align-items: center;
     gap: 8px;
@@ -326,5 +326,131 @@ button {
 
  .btn-4{
     background-color: rgba(165,61,255,1);
-    justify-content: center;
+    color: #fdfdfd;
+    margin-left: 880px;
+    margin-top: 40px;
+
  }
+
+ /* pg-5 */
+ .pg-5{
+    text-align: center;
+    background-color: rgba(19, 34, 56, 1);
+    color: #fdfdfd;
+    height: 400px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;      
+    min-height: 400px;
+    margin-top: 50px;
+ }
+
+ .pg-5 p{
+    color: gray;
+ }
+
+ .pg-5 button{
+    background-color: rgba(165,61,255,1);
+    color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+ }
+
+ /* pg-6 */
+
+ /* pg-6 top */
+ .top6{
+   text-align: center;
+ }
+
+ /* pg-6 bt */
+ .bottom6{
+    display: flex;
+    gap: 20px   ;
+    justify-content: center;
+    
+ }
+
+ .bt-6{
+    background-color: #fdfdfd;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+ }
+ .text4{
+    margin-left: 15px;
+ }
+
+ .text4 h6{
+    color: gray;
+ }
+
+ /* pg-7 */
+ .pg-7-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color:rgba(240, 241, 243, 1);
+    height: 600px;
+    margin-top: 50px;
+ }
+/* pg-7-lf */
+ .pg-7-left p{
+    color: #666;
+ }
+
+ /* pg-7-rg */
+ .pg7r{
+    background: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    height: 120px;
+    width: 450px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-left: 4px solid rgba(165,61,255,1);
+    
+ }
+.pg7r p{
+    color: #666;
+}
+
+/* pg-8 */
+.pg-8{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.pg-8 p{
+    color: #666;
+}
+
+/* pg-9 */
+.pg-9{
+    text-align: center;
+    margin-bottom: 35px;
+}
+#pg9{
+    color: #666;
+}
+#pg9l{
+    font-weight: bolder;
+}
+
+/* pg10 */
+.pg10{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: rgb(255, 255, 255) ;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    height: 700px;
+    width: 1200px;
+    margin-left: 320px;
+}
