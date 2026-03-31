@@ -204,6 +204,7 @@ button {
 /* left text */
 .text-3{
     margin-top: 150px;
+    width: 400px;
 }
 
 .text-3 p{
@@ -237,9 +238,17 @@ button {
 /* page-4 */
 
 /* top text */
-.top-text{
-    text-align: center;
+.pg-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+.top-text1{
+    text-align: center;
+    /* width: 100%; */
+}
+
 
 /* main-box-top */
 .main-box1{
@@ -327,7 +336,7 @@ button {
  .btn-4{
     background-color: rgba(165,61,255,1);
     color: #fdfdfd;
-    margin-left: 880px;
+    /* margin-left: 880px; */
     margin-top: 40px;
 
  }
