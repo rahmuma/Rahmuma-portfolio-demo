@@ -454,3 +454,84 @@ button {
     width: 1200px;
     margin-left: 320px;
 }
+/* pg left */
+
+
+/* pg right */
+.rightp10{
+    align-items: center;
+    margin-top: 150px;
+}
+
+.top-text {
+  color: #666;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: rgba(165,61,255,1);
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  background: rgba(165,61,255,1);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: large;
+}
+.last-btn img{
+    margin-top: 5px;
+    width: 20px;
+}
+
+/* pg11 */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 80px;
+    background-color: rgba(43, 56, 76, 1);
+    color: #ddd;
+}
+
+.fh2{
+    color:rgb(12, 12, 12);
+    display: flex;
+    margin-left: 150px;
+    padding-left: 70px;
+}
+
+.fmenu{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    gap: 25px;
+    font-weight: 3px;
+    font-size: 15px;
+    margin-right: 700px;
+}
+
+.flogo{
+    width: 40px;
+    height: 40px;
+    padding-top:10px ;
+}
+
