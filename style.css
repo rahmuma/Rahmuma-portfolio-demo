@@ -242,13 +242,13 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
-.top-text1{
+
+#por{
     text-align: center;
-    /* width: 100%; */
 }
-
 
 /* main-box-top */
 .main-box1{
@@ -455,7 +455,8 @@ button {
 .pg10{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    /* align-items: center; */
+    gap: 100px;
     background: rgb(255, 255, 255) ;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     border-radius: 4px;
@@ -464,12 +465,45 @@ button {
     margin-left: 320px;
 }
 /* pg left */
+/* top */
+.l-top{
+    margin-top: 100px;
+}
 
+/* bottom */
+.pg10-btm{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.pg10-btm1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: #fdfdfd;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding-left: 15px;
+    width: 300px;
+    height: 80px;
+}
+
+.pg-10img{
+    margin-left: -90px;
+}
+
+
+/* .background{
+    background-color: #ddd;
+    width: 250px;
+    height: 60px;
+} */
 
 /* pg right */
 .rightp10{
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .top-text {
