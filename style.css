@@ -489,7 +489,7 @@ form textarea:focus {
   gap: 15px;
 }
 
-button {
+.last-btn {
   background: rgba(165,61,255,1);
   color: #fff;
   padding: 10px 25px;
@@ -505,18 +505,19 @@ button {
 /* pg11 */
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding:30px 80px;
+    gap: 150px;
+    padding-right: 50px ;
     background-color: rgba(43, 56, 76, 1);
     color: #ddd;
+    height: 200px;
+    margin-top: 25px;
 }
 
 .fh2{
-    color:rgb(12, 12, 12);
+    color:rgb(253, 253, 253);
     display: flex;
-    margin-left: 150px;
-    padding-left: 70px;
 }
 
 .fmenu{
@@ -526,7 +527,6 @@ button {
     gap: 25px;
     font-weight: 3px;
     font-size: 15px;
-    margin-right: 700px;
 }
 
 .flogo{
@@ -534,4 +534,3 @@ button {
     height: 40px;
     padding-top:10px ;
 }
-
